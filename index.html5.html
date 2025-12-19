@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Info</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h1>imade rekia</h1>
+      <p>Web Developer</p>
+
+      <div class="info">
+        <p><span>Email:</span> example@gmail.com</p>
+        <p><span>Country:</span> Algeria</p>
+        <p><span>Skills:</span> HTML, CSS</p>
+      </div>
+
+      <button>Contact Me</button>
+    </div>
+  </body>
+</html>
+<style>
+  body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+
+  .card {
+    background: #fff;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    border-radius: 15px;
+
+    /* 3D effect */
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3),
+      inset 0 2px 5px rgba(255, 255, 255, 0.6);
+  }
+
+  .card h1 {
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+  .card p {
+    color: #666;
+  }
+
+  .info {
+    margin: 20px 0;
+  }
+
+  .info span {
+    font-weight: bold;
+    color: #764ba2;
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    cursor: pointer;
+
+    /* 3D button */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  button:active {
+    transform: translateY(2px);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  }
+</style>
